@@ -60,6 +60,7 @@
                 </div>
                 <div class="navbar-nav w-100">
                     <a href="/" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+					<a href="{{url('export')}}" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Export Data</a>
                     <a href="{{url('audio_file_check')}}" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Audio File Length</a>
                     <a href="{{url('distance_calculation')}}" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Distance Measure</a>
                 </div>
